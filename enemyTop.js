@@ -163,7 +163,7 @@ let moveTop5= setInterval(function (){
             enemyTop5.y += r
             enemyTop5.x += r
             ctx.fillStyle = 'bisque'
-            ctx.fillRect(enemyTop5.x-r1,enemyTop5.y-r,22,22)
+            ctx.fillRect(enemyTop5.x-r-1,enemyTop5.y-r,22,22)
             enemyTop5.draw();
 
         let collisionX = (enemyTop5.x+enemyTop5.width) -dino.x -r
@@ -963,3 +963,419 @@ alert('Game Over')
 
 },800)
 
+
+let enemyTop21 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop22 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop23 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop24 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop25 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop26 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop27 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop28 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+
+let enemyTop29 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop30 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop31 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop32 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop33 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop34 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop35 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop36 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop37 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let enemyTop38 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+
+let enemyTop39 = {
+    x : Math.random() * 700,
+    y : 0,
+    width : 10,
+    height : 10,
+    draw(){
+        ctx.fillStyle ='red'; 
+        ctx.fillRect(this.x,this.y,this.width,this.height);
+    }
+}
+
+let timeTop21 = 0
+let timeTop22 = 0
+let timeTop23 = 0
+let timeTop24 = 0
+let timeTop25 = 0
+let timeTop26 = 0
+let timeTop27 = 0
+let timeTop28 = 0
+let timeTop29 = 0
+
+
+
+let timerTop21_39 = setInterval(function(){
+
+timeTop21 ++;
+timeTop22 ++;
+timeTop23 ++;
+timeTop24 ++;
+timeTop25 ++;
+timeTop26 ++;
+timeTop27 ++;
+timeTop28 ++;
+timeTop29 ++;
+timeTop30 ++;
+timeTop31 ++
+timeTop32 ++
+timeTop33 ++
+timeTop34 ++
+timeTop35 ++
+timeTop36 ++
+timeTop37 ++
+timeTop38 ++
+timeTop39 ++
+
+if(timeTop21 == 10) {
+    setInterval(function (){
+            r = Math.random()*50
+            enemyTop21.y += 44
+            enemyTop21.x += 25
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop21.x-25,enemyTop21.y-44,enemyTop21.width,enemyTop21.height)
+            enemyTop21.draw();
+            
+        let collisionX = (enemyTop21.x+enemyTop21.width) -dino.x -25
+        let collisionY = (enemyTop21.y+enemyTop21.height) - dino.y -44
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop21.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop21.height))){
+        alert('Game Over')     
+
+        }
+    
+        },100)
+
+    }
+
+
+    if(timeTop22 == 10) {
+        setInterval(function (){
+            
+            enemyTop22.y += 20
+            enemyTop22.x += 44
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop22.x-44,enemyTop22.y-20,enemyTop22.width,enemyTop22.height)
+            enemyTop22.draw();
+        let collisionX = (enemyTop22.x+enemyTop22.width) -dino.x -44
+        let collisionY = (enemyTop22.y+enemyTop22.height) - dino.y -20
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop22.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop22.height))){
+            alert('Game Over')   
+
+        }
+    
+        },100)
+    }
+    if(timeTop23 == 10) {
+        setInterval(function (){
+            
+            enemyTop23.y += 10
+            enemyTop23.x += 10
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop23.x-10,enemyTop23.y-10,enemyTop23.width,enemyTop23.height)
+            enemyTop23.draw();
+        let collisionX = (enemyTop23.x+enemyTop23.width) -dino.x -10
+        let collisionY = (enemyTop23.y+enemyTop23.height) - dino.y -10
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop23.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop23.height))){
+            alert('Game Over')   
+
+        }
+    
+        },100)
+    }
+
+    if(timeTop24 == 10) {
+        setInterval(function (){
+            enemyTop24.y += 20
+            enemyTop24.x += 20
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop24.x-20,enemyTop24.y-20,enemyTop24.width,enemyTop24.height)
+            enemyTop24.draw();
+        let collisionX = (enemyTop24.x+enemyTop24.width) -dino.x -20
+        let collisionY = (enemyTop24.y+enemyTop24.height) - dino.y -20
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop24.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop24.height))){
+            alert('Game Over')   
+
+        }
+    
+        },100)
+    }
+
+    if(timeTop25 == 10) {
+        setInterval(function (){
+            
+            enemyTop25.y += 25
+            enemyTop25.x += 25
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop25.x-25,enemyTop25.y-25,enemyTop25.width,enemyTop25.height)
+            enemyTop25.draw();
+        let collisionX = (enemyTop25.x+enemyTop25.width) -dino.x - 25
+        let collisionY = (enemyTop25.y+enemyTop25.height) - dino.y - 25
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop25.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop25.height))){
+            alert('Game Over')    
+
+        }
+    
+        },100)
+    }
+
+    if(timeTop26 == 10) {
+        setInterval(function (){
+            
+            enemyTop26.y += 26
+            enemyTop26.x += 26
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop26.x-26,enemyTop26.y-26,enemyTop26.width,enemyTop26.height)
+            enemyTop26.draw();
+        let collisionX = (enemyTop26.x+enemyTop26.width) -dino.x -26
+        let collisionY = (enemyTop26.y+enemyTop26.height) - dino.y -26
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop26.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop26.height))){
+            alert('Game Over')    
+
+        }
+    
+        },100)
+    }
+    if(timeTop27 == 10) {
+        setInterval(function (){
+            
+            enemyTop27.y += 44
+            enemyTop27.x += 44
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop27.x-44,enemyTop27.y-44,enemyTop27.width,enemyTop27.height)
+            enemyTop27.draw();
+        let collisionX = (enemyTop27.x+enemyTop27.width) -dino.x -44
+        let collisionY = (enemyTop27.y+enemyTop27.height) - dino.y -44
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop27.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop27.height))){
+            alert('Game Over')    
+
+        }
+    
+        },88)
+    }
+    
+    if(timeTop28 == 10) {
+        setInterval(function (){
+            
+            enemyTop28.y += 22
+            enemyTop28.x += 22
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop28.x-22,enemyTop28.y-22,enemyTop28.width,enemyTop28.height)
+            enemyTop28.draw();
+        let collisionX = (enemyTop28.x+enemyTop28.width) -dino.x -22
+        let collisionY = (enemyTop28.y+enemyTop28.height) - dino.y -22
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop28.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop28.height))){
+            alert('Game Over')    
+
+        }
+    
+        },88)
+    }
+    if(timeTop29 == 10) {
+        setInterval(function (){
+            
+            enemyTop29.y += 29
+            enemyTop29.x += 29
+            ctx.fillStyle = 'bisque'
+            ctx.fillRect(enemyTop29.x-29,enemyTop29.y-29,enemyTop29.width,enemyTop29.height)
+            enemyTop29.draw();
+        let collisionX = (enemyTop29.x+enemyTop29.width) -dino.x -29
+        let collisionY = (enemyTop29.y+enemyTop29.height) - dino.y -29
+
+        if (((0 < collisionX) && (collisionX <dino.width+enemyTop29.width)) && ((0 < collisionY) && (collisionY < dino.height+enemyTop29.height))){
+            alert('Game Over')    
+
+        }
+    
+        },88)
+    }
+},10)
