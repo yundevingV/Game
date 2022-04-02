@@ -31,17 +31,7 @@ let enemyRight = {
 
 enemyRight.draw();
 
-let enemyBottom = {
-    x : 690,
-    y : Math.random() * 700,
-    width : 10,
-    height : 10,
-    draw(){
-        ctx.fillStyle ='white'; 
-        ctx.fillRect(this.x,this.y,this.width,this.height);
-    }
-}
-enemyBottom.draw();
+
 
 window.addEventListener("keydown", moveSomething, false);
 
@@ -137,8 +127,8 @@ function moveSomething(e) {
             dino.x = 690
             dino.draw()
         }
-        if(dino.y==680){
-            dino.y =670
+        if(dino.y==700){
+            dino.y =690
             dino.draw()
         }
         //down
