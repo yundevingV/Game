@@ -189,7 +189,7 @@ let enemyTop6 = {
     width : 30,
     height : 30,
     draw(){
-        ctx.fillStyle ='blue'; 
+        ctx.fillStyle ='red'; 
         ctx.fillRect(this.x,this.y,this.width,this.height);
     }
 }
