@@ -15,7 +15,7 @@ class enemyLeft {
 let testTimer1 =0
 let test1 = setInterval(function(){
     testTimer1 ++
-    if(testTimer1 <=  1){
+    if(testTimer1 %10 == 1){
     enemyLeft1 = new enemyLeft(0,Math.random() * 700,10,10)
     enemyLeft1.draw()
 }
@@ -34,7 +34,7 @@ let test1 = setInterval(function(){
 let testTimer2 =0
 let test2 = setInterval(function(){
     testTimer2 ++
-    if(testTimer2 ==  3){
+    if(testTimer2 %10 ==2){
     enemyLeft2 = new enemyLeft(0,Math.random() * 700,10,10)
     enemyLeft2.draw()
     }
@@ -56,7 +56,7 @@ let test2 = setInterval(function(){
 let testTimer3 =0
 let test3 = setInterval(function(){
     testTimer3 ++
-    if(testTimer3 ==  3){
+    if(testTimer3 %10 ==2){
     enemyLeft3 = new enemyLeft(0,Math.random() * 700,10,10)
     enemyLeft3.draw()
     }
@@ -78,7 +78,7 @@ let test3 = setInterval(function(){
 let testTimer4 =0
 let test4 = setInterval(function(){
     testTimer4 ++
-    if(testTimer4 ==  4){
+    if(testTimer4 %10 ==5){
     enemyLeft4 = new enemyLeft(0,Math.random() * 700,10,10)
     enemyLeft4.draw()
     }
@@ -99,7 +99,7 @@ let test4 = setInterval(function(){
 let testTimer5 =0
 let test5 = setInterval(function(){
     testTimer5 ++
-    if(testTimer5 ==  4){
+    if(testTimer5 %10 ==5){
     enemyLeft5 = new enemyLeft(0,Math.random() * 700,10,10)
     enemyLeft5.draw()
     }
@@ -121,7 +121,7 @@ let test5 = setInterval(function(){
 let testTimer6 =0
 let test6 = setInterval(function(){
     testTimer6 ++
-    if(testTimer6 ==  4){
+    if(testTimer6 %10 ==5){
     enemyLeft6 = new enemyLeft(0,Math.random() * 700,10,10)
     enemyLeft6.draw()
     }
@@ -134,6 +134,101 @@ let test6 = setInterval(function(){
         let collisionX = (enemyLeft6.x+enemyLeft6.width) -dino.x +100
         let collisionY = (enemyLeft6.y + enemyLeft6.height) - dino.y 
         if (((0 < collisionX) && (collisionX <dino.width+enemyLeft6.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft6.height))){
+        alert('Game Over') }
+}
+    
+
+},600)
+
+let testTimer7 =0
+let test7 = setInterval(function(){
+    testTimer7 ++
+    if(testTimer7 %10 ==7){
+    enemyLeft7 = new enemyLeft(0,Math.random() * 700,10,10)
+    enemyLeft7.draw()
+    }
+    else { 
+        r = Math.random()*50
+
+        enemyLeft7.x +=r
+        enemyLeft7.draw()
+        ctx.fillStyle = 'bisque'
+        ctx.fillRect(enemyLeft7.x-r-1,enemyLeft7.y-1,12,12)
+        enemyLeft6.draw();
+        let collisionX = (enemyLeft7.x+enemyLeft7.width) -dino.x -r
+        let collisionY = (enemyLeft7.y + enemyLeft7.height) - dino.y 
+        if (((0 < collisionX) && (collisionX <dino.width+enemyLeft7.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft7.height))){
+        alert('Game Over') }
+}
+    
+
+},600)
+
+let testTimer8 =0
+let test8 = setInterval(function(){
+    testTimer8 ++
+    if(testTimer6 %10 ==7){
+    enemyLeft8 = new enemyLeft(0,Math.random() * 700,10,10)
+    enemyLeft8.draw()
+    }
+    else { 
+        r = Math.random()*50
+
+        enemyLeft8.x +=r
+        enemyLeft8.draw()
+        ctx.fillStyle = 'bisque'
+        ctx.fillRect(enemyLeft8.x-r-1,enemyLeft8.y-1,12,12)
+        enemyLeft6.draw();
+        let collisionX = (enemyLeft6.x+enemyLeft8.width) -dino.x -r
+        let collisionY = (enemyLeft6.y + enemyLeft8.height) - dino.y 
+        if (((0 < collisionX) && (collisionX <dino.width+enemyLeft8.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft8.height))){
+        alert('Game Over') }
+}
+    
+
+},600)
+
+let testTimer9 =0
+let test9 = setInterval(function(){
+    testTimer9 ++
+    if(testTimer9 %10 ==7){
+    enemyLeft9 = new enemyLeft(0,Math.random() * 700,10,10)
+    enemyLeft9.draw()
+    }
+    else { 
+        r = Math.random()*50
+
+        enemyLeft9.x +=r
+        enemyLeft9.draw()
+        ctx.fillStyle = 'bisque'
+        ctx.fillRect(enemyLeft9.x-100-1,enemyLeft9.y-1,12,12)
+        enemyLeft9.draw();
+        let collisionX = (enemyLeft9.x+enemyLeft9.width) -dino.x -r
+        let collisionY = (enemyLeft9.y + enemyLeft9.height) - dino.y 
+        if (((0 < collisionX) && (collisionX <dino.width+enemyLeft9.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft9.height))){
+        alert('Game Over') }
+}
+    
+
+},600)
+
+let testTimer10 =0
+let test10 = setInterval(function(){
+    testTimer10 ++
+    if(testTimer10 %10 ==7){
+    enemyLeft10 = new enemyLeft(0,Math.random() * 700,10,10)
+    enemyLeft10.draw()
+    }
+    else { 
+        r = Math.random()*50
+        enemyLeft10.x +=r
+        enemyLeft10.draw()
+        ctx.fillStyle = 'bisque'
+        ctx.fillRect(enemyLeft10.x-r-1,enemyLeft10.y-1,12,12)
+        enemyLeft10.draw();
+        let collisionX = (enemyLeft10.x+enemyLeft10.width) -dino.x -r
+        let collisionY = (enemyLeft10.y + enemyLeft10.height) - dino.y 
+        if (((0 < collisionX) && (collisionX <dino.width+enemyLeft10.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft10.height))){
         alert('Game Over') }
 }
     
