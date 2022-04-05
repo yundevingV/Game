@@ -18,18 +18,7 @@ let dino = {
 dino.draw();
 
 
-let enemyRight = {
-    x : Math.random() * 700,
-    y : 690,
-    width : 10,
-    height : 10,
-    draw(){
-        ctx.fillStyle ='black'; 
-        ctx.fillRect(this.x,this.y,this.width,this.height);
-    }
-}
 
-enemyRight.draw();
 
 
 

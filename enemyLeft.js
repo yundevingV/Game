@@ -29,7 +29,7 @@ let test1 = setInterval(function(){
     if (((0 < collisionX) && (collisionX <dino.width+enemyLeft1.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft1.height))){
     alert('Game Over')     
 }   
-},600)
+},500)
 
 let testTimer2 =0
 let test2 = setInterval(function(){
@@ -51,7 +51,7 @@ let test2 = setInterval(function(){
 }
     
 
-},600)
+},500)
 
 let testTimer3 =0
 let test3 = setInterval(function(){
@@ -73,7 +73,7 @@ let test3 = setInterval(function(){
 }
     
 
-},600)
+},500)
 
 let testTimer4 =0
 let test4 = setInterval(function(){
@@ -95,7 +95,7 @@ let test4 = setInterval(function(){
 }
     
 
-},600)
+},500)
 let testTimer5 =0
 let test5 = setInterval(function(){
     testTimer5 ++
@@ -116,7 +116,7 @@ let test5 = setInterval(function(){
 }
     
 
-},600)
+},500)
 
 let testTimer6 =0
 let test6 = setInterval(function(){
@@ -150,19 +150,19 @@ let test7 = setInterval(function(){
     else { 
         r = Math.random()*50
 
-        enemyLeft7.x +=r
+        enemyLeft7.x +=111
         enemyLeft7.draw()
         ctx.fillStyle = 'bisque'
-        ctx.fillRect(enemyLeft7.x-r-1,enemyLeft7.y-1,12,12)
+        ctx.fillRect(enemyLeft7.x-111-1,enemyLeft7.y-1,12,12)
         enemyLeft6.draw();
-        let collisionX = (enemyLeft7.x+enemyLeft7.width) -dino.x -r
+        let collisionX = (enemyLeft7.x+enemyLeft7.width) -dino.x -111
         let collisionY = (enemyLeft7.y + enemyLeft7.height) - dino.y 
         if (((0 < collisionX) && (collisionX <dino.width+enemyLeft7.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft7.height))){
         alert('Game Over') }
 }
     
 
-},600)
+},300)
 
 let testTimer8 =0
 let test8 = setInterval(function(){
@@ -174,19 +174,19 @@ let test8 = setInterval(function(){
     else { 
         r = Math.random()*50
 
-        enemyLeft8.x +=r
+        enemyLeft8.x +=95
         enemyLeft8.draw()
         ctx.fillStyle = 'bisque'
-        ctx.fillRect(enemyLeft8.x-r-1,enemyLeft8.y-1,12,12)
+        ctx.fillRect(enemyLeft8.x-95-1,enemyLeft8.y-1,12,12)
         enemyLeft6.draw();
-        let collisionX = (enemyLeft6.x+enemyLeft8.width) -dino.x -r
+        let collisionX = (enemyLeft6.x+enemyLeft8.width) -dino.x -95
         let collisionY = (enemyLeft6.y + enemyLeft8.height) - dino.y 
         if (((0 < collisionX) && (collisionX <dino.width+enemyLeft8.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft8.height))){
         alert('Game Over') }
 }
     
 
-},600)
+},300)
 
 let testTimer9 =0
 let test9 = setInterval(function(){
@@ -196,21 +196,21 @@ let test9 = setInterval(function(){
     enemyLeft9.draw()
     }
     else { 
-        r = Math.random()*50
+        
 
-        enemyLeft9.x +=r
+        enemyLeft9.x +=77
         enemyLeft9.draw()
         ctx.fillStyle = 'bisque'
-        ctx.fillRect(enemyLeft9.x-100-1,enemyLeft9.y-1,12,12)
+        ctx.fillRect(enemyLeft9.x-77-1,enemyLeft9.y-1,12,12)
         enemyLeft9.draw();
-        let collisionX = (enemyLeft9.x+enemyLeft9.width) -dino.x -r
+        let collisionX = (enemyLeft9.x+enemyLeft9.width) -dino.x -77
         let collisionY = (enemyLeft9.y + enemyLeft9.height) - dino.y 
         if (((0 < collisionX) && (collisionX <dino.width+enemyLeft9.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft9.height))){
         alert('Game Over') }
 }
     
 
-},600)
+},300)
 
 let testTimer10 =0
 let test10 = setInterval(function(){
@@ -221,16 +221,16 @@ let test10 = setInterval(function(){
     }
     else { 
         r = Math.random()*50
-        enemyLeft10.x +=r
+        enemyLeft10.x +=80
         enemyLeft10.draw()
         ctx.fillStyle = 'bisque'
-        ctx.fillRect(enemyLeft10.x-r-1,enemyLeft10.y-1,12,12)
+        ctx.fillRect(enemyLeft10.x-80-1,enemyLeft10.y-1,12,12)
         enemyLeft10.draw();
-        let collisionX = (enemyLeft10.x+enemyLeft10.width) -dino.x -r
+        let collisionX = (enemyLeft10.x+enemyLeft10.width) -dino.x -80
         let collisionY = (enemyLeft10.y + enemyLeft10.height) - dino.y 
         if (((0 < collisionX) && (collisionX <dino.width+enemyLeft10.width )) && ((0 < collisionY) && (collisionY <dino.height + enemyLeft10.height))){
         alert('Game Over') }
 }
     
 
-},600)
+},300   )
